@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3px 10% 0 10%;
+    border: 1px solid #8ECBBC;
+}
+
+body .bar {
+    margin: 0;
+    padding: 1px;
+    background-color: #8ECBBC;
+}
+
+body p, body .bar .title {
+    padding: 5px;
+}
+
+body p {
+    text-decoration: underline;
+}
+.payment {
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.clear {
+    clear: both;
+}
+
+body form {
+    overflow: auto
+}
+
+body form .container {
+    width: 50%;
+    display: table;
+}
+
+body form .container .form-group {
+    display: table-row;
+
+}
+
+body form .container.left {
+    float: left;
+}
+
+body form .container.right {
+    float: right;
+    margin-top: -8px;
+}
+
+body form .container label {
+    display: table-cell;
+    padding: 5px;
+    line-height: 3px;
+    font-weight: bold;
+}
+
+body form .container .required {
+    color: red;
+}
+
+body form .container select {
+    height: 25px !important;
+    width: 204px !important;
+}
+
+body form .container .input-sm {
+    margin-top: 14px;
+    height: 20px;
+    display: table-cell;
+    width: 200px;
+}
+
+body form .container .input-sm.textArea {
+    height: 80px;
+
+}
+
+body form .buttoncontainer {
+    background: #E3E3E3;
+    text-align: center;
+    height: 30px;
+    margin-top: 20px;
+}
+body form .buttoncontainer button {
+    background: #8ECBBC;
+    margin-top: 2px;
+    height: 25px;
+    width: 64px;
+
+}
